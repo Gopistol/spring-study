@@ -10,6 +10,7 @@ public class ApplePhone implements Phone {
         System.out.println(username + "님이 사과폰을 켰습니다.");
         loading();
     }
+
     @Override
     public void loading() {
         System.out.println("@@@ 폰 켜지는 중 @@@");

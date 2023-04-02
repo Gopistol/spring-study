@@ -12,5 +12,6 @@ public class Main {
 
         user2.buy_apple_phone();
         user2.turn_on_phone();
+
     }
 }

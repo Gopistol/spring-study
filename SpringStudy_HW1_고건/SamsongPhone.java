@@ -14,6 +14,7 @@ public class SamsongPhone implements Phone {
         loading();
     }
 
+
     @Override
     public void loading() {
         System.out.println("★★★ 폰 켜지는 중 ★★★");

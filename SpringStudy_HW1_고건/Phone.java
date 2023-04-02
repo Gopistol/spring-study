@@ -5,3 +5,4 @@ public interface Phone {
     void turn_on();
     void loading();
 }
+
