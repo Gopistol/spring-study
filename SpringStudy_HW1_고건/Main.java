@@ -5,13 +5,14 @@ public class Main {
         User user1 = new User("잡th");
         User user2 = new User("거니");
 
-        user1.buy_samsong_phone();
+        PhoneStore ps = new PhoneStore();
+
+        ps.phoneSell("삼송", user1);
         user1.turn_on_phone();
 
         System.out.println();
 
-        user2.buy_apple_phone();
+        ps.phoneSell("사과", user2);
         user2.turn_on_phone();
-
     }
 }
